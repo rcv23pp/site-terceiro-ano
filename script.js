@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Adiciona um evento de clique ao botÃ£o 'aumentar-fonte'
 
-    aumentaFonteBotao.addEventListener ('click', function () {
+    aumentaFonteBotao.addEventListener('click', function () {
 
         // Quando o botÃ£o for clicado, aumenta o valor de tamanhoAtualFonte em 0.1
 
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     })
 
-    diminuiFonteBotao.addEventListener ('click', function () {
+    diminuiFonteBotao.addEventListener('click', function () {
         tamanhoAtualFonte -= 0.1;
         document.body.style.fontSize = `${tamanhoAtualFonte}rem`;
     });
